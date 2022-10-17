@@ -5,7 +5,7 @@ import (
 	abs "go-example/design-pattern/abstractFactory"
 )
 
-func TestAbstractFactory() {
+func testAbstractFactory() {
 	adidasFactory, _ := abs.GetSportsFactory("adidas")
 	nikeFactory, _ := abs.GetSportsFactory("nike")
 
